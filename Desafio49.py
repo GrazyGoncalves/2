@@ -14,7 +14,7 @@ st.title('Análise de Estudantes - Grupo 1')
 st.subheader('Bianca, Graziella, Evely, João, Milena')
 st.dataframe(df)
 
-#Gráfico Bianca
+#Bianca
 st.subheader('Bianca')
 state_counts_bianca = df['NO_UF_IES'].value_counts()
 fig_bianca, ax_bianca = plt.subplots(figsize=(10, 6))
